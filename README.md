@@ -20,9 +20,7 @@ After some further inspection of the data I decided to do the following:
      a. Latitude
      b. Longitude
      c. Location Description
-     d. Area
      e. Hour of Day
-     f. Day of week
 
   
 I did the following steps during *PreProcessing* of data:
@@ -31,6 +29,9 @@ I did the following steps during *PreProcessing* of data:
   2. After uploading this csv file onto my jupyter notebook I took the mean of lattitude and longitude to replace the null values with mean.
   3. Using dummy encoding I made columns for the outputs.
   4. Using Label Encoder I encoded my 'location description' column.
-  5. I Converted the block format(XXXX direction(N,S,E,W) Area) to just Area and then label encoded it
-  6. Then I converted date to: hour of day, day and day of week.
-  7. After dropping the extra columns I proceeded to save the file as 'Final_Dataset'
+  5. Then I converted date to: hour of day, day and day of week.
+  6. After dropping the extra columns I proceeded to save the file as 'Final_Dataset'
+  
+  
+The Prediction:
+   1. 
